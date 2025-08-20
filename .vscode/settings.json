@@ -44,7 +44,6 @@
   "autoDocstring.includeName": true,
   "cSpell.words": [
     "Docstrings",
-    "feedgy",
     "Miniconda",
     "Pyenv",
     "Pytest"

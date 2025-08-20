@@ -1,15 +1,14 @@
 [tool.poetry]
-name = "feedgy-ds-repo-template"
+name = "rag-based-solar-inverter"
 version = "0.0.1"
-description = "Data science git repo template"
-authors = ["Wenkun LI <wli@feedgy.solar>"]
+description = "This repo is an example of a RAG buit on solar inverter technical data sheets."
+authors = ["Nicolas Favrot <n.favrot@gmail.com>"]
 readme = "README.md"
-packages = [{ include = "feedgy_ds_repo_template", from = "src" }]
+packages = [{ include = "rag_based_solar_inverter", from = "src" }]
 
 
 [tool.poetry.dependencies]
 python = "^3.10"
-boto3 = "^1.34.76"
 ipykernel = "^6.29.4"
 pandas = "^2.2.1"
 python-dotenv = "^1.0.1"
@@ -27,7 +26,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-main = 'feedgy_ds_repo_template.main:run'
+main = 'rag_based_solar_inverter.main:run'
 
 [tool.ruff]
 line-length = 79

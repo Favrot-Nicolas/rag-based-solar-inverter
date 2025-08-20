@@ -1,4 +1,0 @@
-[bandit]
-exclude = tests,docker,docs
-tests = B201
-skips = B101,B601,B301
